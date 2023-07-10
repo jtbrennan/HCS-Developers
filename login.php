@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
 
     // Check the credentials against a database or any other authentication method
     // For demonstration purposes, let's assume the correct username is "admin" and the password is "password"
-    if ($username === 'brennaj001' && $password === 'NeilMcNeil') {
+    if ($username === '' && $password === '') {
         // Store the username in the session
         $_SESSION['username'] = $username;
 
